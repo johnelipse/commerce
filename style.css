@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.introduction {
+  min-height: 100vh;
+  background-color: blue;
+}
+.introduction .shoe-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introduction .shoe-image img {
+  width: 30rem;
+  height: 30rem;
+}
+.introduction .description {
+  padding: 2rem;
+  text-align: center;
+}
+.introduction .description h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.introduction .description p {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.introduction .btn {
+  text-align: center;
+  padding: 1.5rem;
+}
+.introduction .btn a {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 3rem;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 360px) {
+  .introduction {
+    width: 100%;
+  }
+  .introduction .shoe-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction .shoe-image img {
+    padding-top: 4rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  .introduction .description {
+    padding: 2rem;
+    text-align: center;
+  }
+  .introduction .description h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.9rem;
+  }
+  .introduction .description p {
+    color: white;
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
