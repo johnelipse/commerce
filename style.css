@@ -363,4 +363,84 @@
     color: white;
     font-size: 1.2rem;
   }
+}
+.detailed .go-back {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: blue;
+}
+.detailed .go-back a {
+  text-decoration: none;
+}
+.detailed .go-back h3 {
+  color: white;
+}
+.detailed .shoe-image-two img {
+  border-radius: 2rem;
+  background-color: white;
+  width: 20rem;
+  height: 20rem;
+}
+
+.back {
+  background-color: blue;
+}
+
+@media (max-width: 360px) {
+  .detailed {
+    position: relative;
+  }
+  .detailed .go-back {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: blue;
+  }
+  .detailed .go-back a {
+    text-decoration: none;
+  }
+  .detailed .go-back h3 {
+    color: white;
+  }
+  .detailed .shoe-image-two {
+    padding-left: 2.5rem;
+  }
+  .detailed .shoe-image-two img {
+    border-radius: 2rem;
+    background-color: #e3e8ee;
+    width: 18rem;
+    height: 16rem;
+    position: absolute;
+    top: 25%;
+  }
+  .back {
+    border-radius: 1rem;
+    height: 60vh;
+    background-color: blue;
+  }
+}
+.shoe-images {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.shoe-images img {
+  width: 15rem;
+}
+.shoe-images .shoe-two {
+  border: blue solid 1px;
+}
+
+@media (max-width: 360px) {
+  .shoe-images {
+    padding-top: 2.5rem;
+    text-align: center;
+  }
+  .shoe-images img {
+    width: 5rem;
+  }
+  .shoe-images .shoe-two {
+    border: blue solid 1px;
+    width: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

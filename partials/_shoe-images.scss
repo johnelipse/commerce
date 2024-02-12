@@ -1,0 +1,23 @@
+.shoe-images{
+    padding-top: 1.5rem;
+    text-align: center;
+    img{
+        width: 15rem;
+    }
+    .shoe-two{
+        border: $primary-color solid 1px;
+    }
+}
+@media(max-width:360px){
+    .shoe-images{
+        padding-top: 2.5rem;
+        text-align: center;
+        img{
+            width: 5rem;
+        }
+        .shoe-two{
+            border: $primary-color solid 1px;
+            width: 4rem;
+        }
+    }   
+}

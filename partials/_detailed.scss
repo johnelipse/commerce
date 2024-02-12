@@ -1,0 +1,59 @@
+.detailed {
+  .go-back {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: $primary-color;
+    a {
+      text-decoration: none;
+    }
+    h3 {
+      color: $secondary-color;
+    }
+  }
+  .shoe-image-two {
+    img {
+      border-radius: 2rem;
+      background-color: $secondary-color;
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+}
+.back {
+  background-color: $primary-color;
+}
+@media (max-width: 360px) {
+  .detailed {
+    position: relative;
+    .go-back {
+      display: flex;
+      gap: 1.5rem;
+      padding: 2rem;
+      background-color: $primary-color;
+      a {
+        text-decoration: none;
+      }
+      h3 {
+        color: $secondary-color;
+      }
+    }
+    .shoe-image-two {
+      padding-left: 2.5rem;
+      
+      img {
+        border-radius: 2rem;
+        background-color: #e3e8ee;
+        width: 18rem;
+        height: 16rem;
+        position: absolute;
+        top: 25%;
+      }
+    }
+  }
+  .back {
+    border-radius: 1rem;
+    height: 60vh;
+    background-color: $primary-color;
+  }
+}
