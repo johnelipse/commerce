@@ -524,4 +524,41 @@
     padding: 0.5rem 1rem;
     width: 5%;
   }
+}
+.colors {
+  padding: 2rem;
+}
+.colors p {
+  padding-top: 1.5rem;
+}
+
+.circle-1 {
+  color: black;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.circle-2 {
+  color: #2d5d61;
+}
+
+.circle-3 {
+  color: #864615;
+}
+
+.circle-4 {
+  color: #acceee;
+}
+
+.circle-5 {
+  color: #deefc2;
+}
+
+@media (max-width: 360px) {
+  .colors {
+    padding: 1rem;
+  }
+  .colors p {
+    padding-top: 1.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */
