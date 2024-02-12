@@ -1,0 +1,52 @@
+.categories{
+    padding: 4rem;
+  .category-name{
+   padding-top: 1rem;
+   object-fit: contain;
+   display: flex;
+  flex-direction: row;
+  gap: 9rem;
+  .nike{
+    border: $primary-color solid 1px;
+  }
+  }  
+ .category-name img{
+    margin-left: 1rem;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+ }  
+ .category{
+    display: flex;
+    justify-content: space-between;
+  .more{
+    color: $primary-color;
+  }  
+ }
+}
+@media(max-width:360px){
+    .categories{
+        padding: 1rem;
+      .category-name{
+       padding-top: 1.5rem;
+       object-fit: contain;
+       display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+     
+      }  
+     .category-name img{
+        margin-left: 1rem;
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+     }  
+     .category{
+        display: flex;
+        justify-content: space-between;
+      .more{
+        color: $primary-color;
+      }  
+     }
+    }
+}
