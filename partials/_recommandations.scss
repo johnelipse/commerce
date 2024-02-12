@@ -50,8 +50,8 @@
   .recommandation-images{
     position: relative;
     display: flex;
-    flex-direction: column;
-    gap: 3.5rem;
+    flex-direction: row;
+    gap: 1rem;
     img{
       width: 10rem;  
     } 
