@@ -443,4 +443,33 @@
     border: blue solid 1px;
     width: 4rem;
   }
+}
+.money-paid h2 {
+  color: blue;
+}
+
+.icons .bx {
+  background-color: #e3e8ee;
+  padding: 0.3rem;
+}
+
+.amount-sold {
+  padding: 2rem 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 360px) {
+  .money-paid h2 {
+    color: blue;
+  }
+  .icons .bx {
+    background-color: #e3e8ee;
+    padding: 0.3rem;
+  }
+  .amount-sold {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=style.css.map */
