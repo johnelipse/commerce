@@ -75,4 +75,36 @@
     font-weight: lighter;
     font-size: 1rem;
   }
+}
+.welcome-back {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-back .left-side h2 {
+  color: #e3e8ee;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.welcome-back .right-side .bx {
+  background-color: #e3e8ee;
+  padding: 0.2rem;
+}
+
+@media (max-width: 360px) {
+  .welcome-back {
+    padding: 2.5rem 1rem;
+  }
+  .welcome-back .left-side h2 {
+    color: #e3e8ee;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .welcome-back .left-side h3 {
+    font-size: 1rem;
+  }
+  .welcome-back .right-side .bx {
+    background-color: #e3e8ee;
+    padding: 0.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

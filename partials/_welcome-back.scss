@@ -1,0 +1,39 @@
+.welcome-back {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  .left-side {
+    h2 {
+      color: $tartiary-color;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+  .right-side {
+    .bx {
+      background-color: $tartiary-color;
+      padding: 0.2rem;
+    }
+  }
+}
+@media (max-width: 360px){
+    .welcome-back {
+        padding: 2.5rem 1rem;
+     .left-side {
+          h2 {
+            color: $tartiary-color;
+            font-weight: bold;
+            font-size: 1rem;
+          }
+          h3{
+            font-size: 1rem; 
+          }
+        }
+        .right-side {
+          .bx {
+            background-color: $tartiary-color;
+            padding: 0.2rem;
+          }
+        }
+      }  
+}
