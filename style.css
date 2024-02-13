@@ -574,6 +574,11 @@
   .colors p {
     padding-top: 1.5rem;
   }
+  .circle-1 {
+    color: black;
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
 }
 .buy-more {
   text-align: center;
