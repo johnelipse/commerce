@@ -576,6 +576,7 @@
   }
   .circle-1 {
     color: black;
+    align-items: center;
     border: 1px solid gray;
     border-radius: 50%;
   }
