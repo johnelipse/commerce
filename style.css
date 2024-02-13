@@ -197,15 +197,30 @@
   flex-direction: row;
   gap: 9rem;
 }
-.categories .category-name .nike {
+.categories .category-name .nikes {
+  border-radius: 1rem;
   border: blue solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.categories .category-name .nikes p {
+  padding-left: 1rem;
+}
+.categories .category-name .nikes .nike {
+  height: 100%;
+  width: 75%;
 }
 .categories .category-name img {
   margin-left: 1rem;
   width: 20px;
   height: 20px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  border: 1px gray solid;
+  background-color: gray;
 }
 .categories .category {
   display: flex;
@@ -576,7 +591,6 @@
   }
   .circle-1 {
     color: black;
-    align-items: center;
     border: 1px solid gray;
     border-radius: 50%;
   }

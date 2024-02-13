@@ -6,15 +6,30 @@
    display: flex;
   flex-direction: row;
   gap: 9rem;
-  .nike{
+  .nikes{
+    p{
+      padding-left: 1rem;
+    }
+    border-radius: 1rem;
     border: $primary-color solid 1px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0;
+.nike{
+  height: 100%;
+  width: 75%;
+} 
   }
   }  
  .category-name img{
     margin-left: 1rem;
   width: 20px;
   height: 20px;
-  object-fit: cover;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px gray solid;
+  background-color: gray;
  }  
  .category{
     display: flex;
