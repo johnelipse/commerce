@@ -243,7 +243,7 @@
   }
 }
 .recommandations {
-  padding: 3rem;
+  padding: 1rem;
 }
 .recommandations .recommandation {
   display: flex;
@@ -255,7 +255,7 @@
 .recommandations .recommandation-images {
   position: relative;
   display: flex;
-  gap: 15rem;
+  gap: 13rem;
 }
 .recommandations .recommandation-images img {
   width: 10rem;
@@ -286,8 +286,10 @@
     padding: 1.5rem;
   }
   .recommandations .recommandation {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-right: 1rem;
   }
   .recommandations .recommandation-images {
     position: relative;
@@ -300,13 +302,24 @@
   }
   .recommandations .recommandation-images .amount {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: start;
   }
-  .recommandations .recommandation-images .left .bx-plus {
+  .recommandations .recommandation-images .left {
+    text-align: end;
+    width: 50%;
+  }
+  .recommandations .recommandation-images .left i .bx-plus {
     background-color: blue;
     padding: 0.4rem;
     border-radius: 0.3rem;
     color: white;
+  }
+  .recommandations .recommandation-images .right {
+    width: 50%;
+    text-align: end;
+    padding-right: 0.4rem;
   }
   .recommandations .recommandation-images .right .bx-plus {
     background-color: gray;
