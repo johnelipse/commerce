@@ -266,6 +266,59 @@
     }
   }   
 }
+@media (max-width: 414px) {
+  .recommandations {
+    padding: 1.5rem;
+    .recommandation {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 1rem;
+    }
+    .recommandation-images {
+      position: relative;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      padding-left: 0.1rem;
+      gap: 1rem;
+      img {
+        width: 10rem;
+      }
+      .amount {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        text-align: start;
+      }
+      .left {
+        text-align: end;
+        width: 50%;
+        i .bx-plus {
+          background-color: $primary-color;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+      .right {
+        width: 50%;
+        text-align: end;
+        padding-right: 0.4rem;
+        .bx-plus {
+          background-color: gray;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+    }
+    .bx-heart {
+      position: absolute;
+      top: 10%;
+    }
+  }
+}
 @media (max-width: 360px) {
   .recommandations {
     padding: 1.5rem;

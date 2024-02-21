@@ -727,6 +727,59 @@
     top: 19%;
   }
 }
+@media (max-width: 414px) {
+  .recommandations {
+    padding: 1.5rem;
+  }
+  .recommandations .recommandation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+  }
+  .recommandations .recommandation-images {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.1rem;
+    gap: 1rem;
+  }
+  .recommandations .recommandation-images img {
+    width: 10rem;
+  }
+  .recommandations .recommandation-images .amount {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: start;
+  }
+  .recommandations .recommandation-images .left {
+    text-align: end;
+    width: 50%;
+  }
+  .recommandations .recommandation-images .left i .bx-plus {
+    background-color: blue;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .recommandation-images .right {
+    width: 50%;
+    text-align: end;
+    padding-right: 0.4rem;
+  }
+  .recommandations .recommandation-images .right .bx-plus {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .bx-heart {
+    position: absolute;
+    top: 10%;
+  }
+}
 @media (max-width: 360px) {
   .recommandations {
     padding: 1.5rem;
@@ -942,7 +995,7 @@
     background-color: blue;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 428px) {
   .detailed {
     position: relative;
   }
@@ -1117,7 +1170,8 @@
     padding: 0.3rem;
   }
   .amount-sold {
-    padding: 2rem 2rem;
+    padding: 0.5rem 2rem;
+    padding-bottom: 0.5rem;
     display: flex;
     justify-content: space-between;
   }
@@ -1177,7 +1231,7 @@
 @media (max-width: 360px) {
   .btns {
     justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     gap: 2rem;
   }
@@ -1187,6 +1241,14 @@
   .btns p {
     padding: 0.5rem 1rem;
     width: 5%;
+  }
+  .btns .size {
+    display: flex;
+    padding-top: 0.3rem;
+    justify-content: space-between;
+  }
+  .btns .size .chart {
+    color: blue;
   }
 }
 .colors {
@@ -1220,10 +1282,11 @@
 
 @media (max-width: 360px) {
   .colors {
+    padding-top: 0.3rem;
     padding: 1rem;
   }
   .colors p {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
   .circle-1 {
     color: black;
@@ -1315,7 +1378,7 @@
   .buy-more {
     text-align: center;
     position: fixed;
-    bottom: -1%;
+    bottom: -2%;
     left: 10%;
     padding: 1rem;
     justify-content: center;
