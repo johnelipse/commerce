@@ -157,6 +157,208 @@
   border-radius: 50%;
 }
 
+@media (max-width: 788px) {
+  .collection {
+    padding: 2rem;
+  }
+  .collection .collections {
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    display: flex;
+    gap: 10rem;
+    background-color: blue;
+  }
+  .collection .collections .about-image img {
+    width: 17rem;
+    height: 17rem;
+  }
+  .collection .collections .about {
+    padding-top: 3.3rem;
+  }
+  .collection .collections .about h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .collection .collections .about p {
+    color: white;
+    font-size: 1.4rem;
+  }
+  .collection .collections .about .bttn {
+    padding-top: 2rem;
+  }
+  .collection .collections .about .bttn a {
+    color: blue;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  .collection .circles {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .collection .circles .bxs-circle {
+    color: #e3e8ee;
+  }
+  .collection .circles .blue-circle {
+    color: blue;
+    border: solid blue 1px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 699px) {
+  .collection {
+    padding: 2rem;
+  }
+  .collection .collections {
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    display: flex;
+    gap: 4.5rem;
+    background-color: blue;
+  }
+  .collection .collections .about-image img {
+    width: 16rem;
+    height: 18rem;
+  }
+  .collection .collections .about {
+    padding-top: 1rem;
+  }
+  .collection .collections .about h2 {
+    color: white;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  .collection .collections .about p {
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 2.5rem;
+  }
+  .collection .collections .about .bttn {
+    padding-top: 2.5rem;
+  }
+  .collection .collections .about .bttn a {
+    color: blue;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  .collection .circles {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .collection .circles .bxs-circle {
+    color: #e3e8ee;
+  }
+  .collection .circles .blue-circle {
+    color: blue;
+    border: solid blue 1px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 524px) {
+  .collection {
+    padding: 2rem;
+  }
+  .collection .collections {
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    display: flex;
+    gap: 2.5rem;
+    background-color: blue;
+  }
+  .collection .collections .about-image img {
+    width: 12rem;
+    height: 13rem;
+  }
+  .collection .collections .about {
+    padding-top: 1rem;
+  }
+  .collection .collections .about h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .collection .collections .about p {
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+  }
+  .collection .collections .about .bttn {
+    padding-top: 1.9rem;
+  }
+  .collection .collections .about .bttn a {
+    color: blue;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  .collection .circles {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .collection .circles .bxs-circle {
+    color: #e3e8ee;
+  }
+  .collection .circles .blue-circle {
+    color: blue;
+    border: solid blue 1px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 430px) {
+  .collection {
+    text-align: center;
+    padding: 1rem;
+  }
+  .collection .collections {
+    justify-content: space-between;
+    display: flex;
+    gap: 0rem;
+    background-color: blue;
+  }
+  .collection .collections .about-image img {
+    display: none;
+  }
+  .collection .collections .about {
+    padding-top: 1rem;
+  }
+  .collection .collections .about h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .collection .collections .about p {
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+  }
+  .collection .collections .about .bttn {
+    padding-top: 1.9rem;
+  }
+  .collection .collections .about .bttn a {
+    color: blue;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  .collection .circles {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .collection .circles .bxs-circle {
+    color: #e3e8ee;
+  }
+  .collection .circles .blue-circle {
+    color: blue;
+    border: solid blue 1px;
+    border-radius: 50%;
+  }
+}
 @media (max-width: 360px) {
   .collection {
     padding: 1.5rem;
@@ -218,6 +420,41 @@
   color: blue;
 }
 
+@media (max-width: 788px) {
+  .categories {
+    width: 100%;
+    padding: 4rem;
+  }
+  .categories .category-name {
+    padding-top: 1rem;
+    -o-object-fit: contain;
+       object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .categories .category-name .nike {
+    border: blue solid 1px;
+  }
+  .categories .category-name img {
+    margin-left: 0.1rem;
+    width: 20px;
+    height: 20px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 50%;
+    border: 1px gray solid;
+    background-color: gray;
+  }
+  .categories .category {
+    display: flex;
+    justify-content: space-between;
+  }
+  .categories .category .more {
+    color: blue;
+  }
+}
 @media (max-width: 360px) {
   .categories {
     padding: 1rem;
@@ -284,6 +521,211 @@
   top: 19%;
 }
 
+@media (max-width: 788px) {
+  .recommandations {
+    padding: 1rem 4rem;
+  }
+  .recommandations .recommandation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recommandations .recommandation .more {
+    color: blue;
+  }
+  .recommandations .recommandation-images {
+    padding-left: 5rem;
+    position: relative;
+    display: flex;
+    gap: 10rem;
+  }
+  .recommandations .recommandation-images img {
+    width: 10rem;
+  }
+  .recommandations .recommandation-images .amount {
+    display: flex;
+    gap: 1rem;
+  }
+  .recommandations .recommandation-images .left .bx-plus {
+    background-color: blue;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .recommandation-images .right .bx-plus {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .bx-heart {
+    position: absolute;
+    top: 19%;
+  }
+}
+@media (max-width: 630px) {
+  .recommandations {
+    padding: 1rem 4rem;
+  }
+  .recommandations .recommandation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recommandations .recommandation .more {
+    color: blue;
+  }
+  .recommandations .recommandation-images {
+    padding-left: 2rem;
+    position: relative;
+    display: flex;
+    gap: 10rem;
+  }
+  .recommandations .recommandation-images img {
+    width: 10rem;
+  }
+  .recommandations .recommandation-images .amount {
+    display: flex;
+    gap: 1rem;
+  }
+  .recommandations .recommandation-images .left .bx-plus {
+    background-color: blue;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .recommandation-images .right .bx-plus {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .bx-heart {
+    position: absolute;
+    top: 19%;
+  }
+}
+@media (max-width: 578px) {
+  .recommandations {
+    padding: 1rem 4rem;
+  }
+  .recommandations .recommandation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recommandations .recommandation .more {
+    color: blue;
+  }
+  .recommandations .recommandation-images {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+  }
+  .recommandations .recommandation-images img {
+    width: 10rem;
+  }
+  .recommandations .recommandation-images .amount {
+    display: flex;
+    gap: 1rem;
+  }
+  .recommandations .recommandation-images .left .bx-plus {
+    background-color: blue;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .recommandation-images .right .bx-plus {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .bx-heart {
+    position: absolute;
+    top: 19%;
+  }
+}
+@media (max-width: 488px) {
+  .recommandations {
+    padding: 1rem 4rem;
+  }
+  .recommandations .recommandation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recommandations .recommandation .more {
+    color: blue;
+  }
+  .recommandations .recommandation-images {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+  }
+  .recommandations .recommandation-images img {
+    width: 10rem;
+  }
+  .recommandations .recommandation-images .amount {
+    display: flex;
+    gap: 1rem;
+  }
+  .recommandations .recommandation-images .left .bx-plus {
+    background-color: blue;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .recommandation-images .right .bx-plus {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .bx-heart {
+    position: absolute;
+    top: 19%;
+  }
+}
+@media (max-width: 430px) {
+  .recommandations {
+    padding: 1rem 3rem;
+  }
+  .recommandations .recommandation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recommandations .recommandation .more {
+    color: blue;
+  }
+  .recommandations .recommandation-images {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+  }
+  .recommandations .recommandation-images img {
+    width: 10rem;
+  }
+  .recommandations .recommandation-images .amount {
+    display: flex;
+    gap: 1rem;
+  }
+  .recommandations .recommandation-images .left .bx-plus {
+    background-color: blue;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .recommandation-images .right .bx-plus {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .recommandations .bx-heart {
+    position: absolute;
+    top: 19%;
+  }
+}
 @media (max-width: 360px) {
   .recommandations {
     padding: 1.5rem;
@@ -360,6 +802,34 @@
   font-size: 1.5rem;
 }
 
+@media (max-width: 788px) {
+  .page-conclusion {
+    position: relative;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+  }
+  .page-conclusion .footer {
+    position: fixed;
+    bottom: 3%;
+    left: 11%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 1rem;
+    width: 76%;
+  }
+  .page-conclusion .footer .grid {
+    font-size: 1.5rem;
+    color: gray;
+  }
+  .page-conclusion .footer .home {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 360px) {
   .page-conclusion {
     padding-left: 2rem;
@@ -403,6 +873,108 @@
   background-color: blue;
 }
 
+@media (max-width: 788px) {
+  .detailed {
+    position: relative;
+  }
+  .detailed .go-back {
+    height: 50vh;
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: blue;
+  }
+  .detailed .go-back a {
+    text-decoration: none;
+  }
+  .detailed .go-back h3 {
+    color: white;
+  }
+  .detailed .shoe-image-two {
+    display: flex;
+    justify-content: center;
+  }
+  .detailed .shoe-image-two img {
+    border-radius: 2rem;
+    background-color: white;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    bottom: -50px;
+  }
+}
+@media (max-width: 484px) {
+  .detailed {
+    position: relative;
+  }
+  .detailed .go-back {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: blue;
+  }
+  .detailed .go-back a {
+    text-decoration: none;
+  }
+  .detailed .go-back h3 {
+    color: white;
+  }
+  .detailed .shoe-image-two {
+    padding-left: 2.5rem;
+  }
+  .detailed .shoe-image-two img {
+    border-radius: 2rem;
+    background-color: #e1e8ee;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 25rem;
+    height: 15rem;
+    position: absolute;
+    bottom: -75px;
+    left: 9%;
+  }
+  .back {
+    border-radius: 1rem;
+    height: 45vh;
+    background-color: blue;
+  }
+}
+@media (max-width: 414px) {
+  .detailed {
+    position: relative;
+  }
+  .detailed .go-back {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: blue;
+  }
+  .detailed .go-back a {
+    text-decoration: none;
+  }
+  .detailed .go-back h3 {
+    color: white;
+  }
+  .detailed .shoe-image-two {
+    padding-left: 2.5rem;
+  }
+  .detailed .shoe-image-two img {
+    border-radius: 2rem;
+    background-color: #e3e8ee;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 20rem;
+    height: 19rem;
+    position: absolute;
+    bottom: -70px;
+    left: 40px;
+  }
+  .back {
+    border-radius: 1rem;
+    height: 45vh;
+    background-color: blue;
+  }
+}
 @media (max-width: 360px) {
   .detailed {
     position: relative;
@@ -425,10 +997,13 @@
   .detailed .shoe-image-two img {
     border-radius: 2rem;
     background-color: #e3e8ee;
-    width: 18rem;
-    height: 18rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 19rem;
+    height: 19rem;
     position: absolute;
-    top: 25%;
+    bottom: -70px;
+    left: 25px;
   }
   .back {
     border-radius: 1rem;
@@ -447,9 +1022,36 @@
   border: blue solid 1px;
 }
 
+@media (max-width: 788px) {
+  .shoe-images {
+    padding-top: 4rem;
+    text-align: center;
+  }
+  .shoe-images img {
+    width: 10rem;
+  }
+  .shoe-images .shoe-two {
+    border: blue solid 1px;
+  }
+}
+@media (max-width: 484px) {
+  .shoe-images {
+    padding-top: 4rem;
+    gap: 3rem;
+    text-align: center;
+  }
+  .shoe-images img {
+    width: 5rem;
+  }
+  .shoe-images .shoe-two {
+    border: blue solid 1px;
+    width: 4rem;
+  }
+}
 @media (max-width: 360px) {
   .shoe-images {
-    padding-top: 2.5rem;
+    padding-top: 4rem;
+    grid-area: 1rem;
     text-align: center;
   }
   .shoe-images img {
@@ -475,6 +1077,34 @@
   justify-content: space-between;
 }
 
+@media (max-width: 788px) {
+  .money-paid h2 {
+    color: blue;
+  }
+  .icons .bx {
+    background-color: #e3e8ee;
+    padding: 0.3rem;
+  }
+  .amount-sold {
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 484px) {
+  .money-paid h2 {
+    color: blue;
+  }
+  .icons .bx {
+    background-color: #e3e8ee;
+    padding: 0.3rem;
+  }
+  .amount-sold {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 360px) {
   .money-paid h2 {
     color: blue;
@@ -526,6 +1156,21 @@
   color: blue;
 }
 
+@media (max-width: 484px) {
+  .btns {
+    justify-content: center;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
+  .btns .fourty {
+    border: 1px blue solid;
+  }
+  .btns p {
+    padding: 0.5rem 1rem;
+    width: 5%;
+  }
+}
 @media (max-width: 360px) {
   .btns {
     justify-content: center;
@@ -595,7 +1240,7 @@
 }
 .buy-more .bx-cart-add {
   font-size: 1.2rem;
-  background-color: #e3e8ee;
+  background-color: aqua;
   padding: 0.5rem 0.4rem;
   border-radius: 0.3rem;
 }
@@ -607,4 +1252,86 @@
   padding: 0.4rem 5rem;
   border-radius: 0.3rem;
   border: none;
+}
+
+@media (max-width: 788px) {
+  .buy-more {
+    align-items: center;
+    position: fixed;
+    bottom: -1%;
+    left: 29%;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+  }
+  .buy-more .bx-cart-add {
+    font-size: 1.2rem;
+    background-color: #e3e8ee;
+    padding: 0.5rem 0.4rem;
+    border-radius: 0.3rem;
+  }
+  .buy-more button {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.4rem 5rem;
+    border-radius: 0.3rem;
+    border: none;
+  }
+}
+@media (max-width: 484px) {
+  .buy-more {
+    text-align: center;
+    position: fixed;
+    bottom: -1%;
+    left: 18%;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+  }
+  .buy-more .bx-cart-add {
+    font-size: 1.2rem;
+    background-color: #e3e8ee;
+    padding: 0.5rem 0.4rem;
+    border-radius: 0.3rem;
+  }
+  .buy-more button {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.4rem 5rem;
+    border-radius: 0.3rem;
+    border: none;
+  }
+}
+@media (max-width: 360px) {
+  .buy-more {
+    text-align: center;
+    position: fixed;
+    bottom: -1%;
+    left: 10%;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+  }
+  .buy-more .bx-cart-add {
+    font-size: 1.2rem;
+    background-color: #e3e8ee;
+    padding: 0.5rem 0.4rem;
+    border-radius: 0.3rem;
+  }
+  .buy-more button {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.4rem 5rem;
+    border-radius: 0.3rem;
+    border: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,55 +1,87 @@
-.categories{
-    padding: 4rem;
-  .category-name{
-   padding-top: 1rem;
-   object-fit: contain;
-   display: flex;
-  flex-direction: row;
-  gap: 9rem;
-  .nike{
-    border: $primary-color solid 1px;
+.categories {
+  padding: 4rem;
+  .category-name {
+    padding-top: 1rem;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    .nike {
+      border: $primary-color solid 1px;
+    }
   }
-  }  
- .category-name img{
+  .category-name img {
     margin-left: 1rem;
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-  border-radius: 50%;
-  border: 1px gray solid;
-  background-color: gray;
- }  
- .category{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px gray solid;
+    background-color: gray;
+  }
+  .category {
     display: flex;
     justify-content: space-between;
-  .more{
-    color: $primary-color;
-  }  
- }
+    .more {
+      color: $primary-color;
+    }
+  }
 }
-@media(max-width:360px){
-    .categories{
-        padding: 1rem;
-      .category-name{
-       padding-top: 1.5rem;
-       object-fit: contain;
-       display: flex;
+@media (max-width: 788px) {
+  .categories {
+    width: 100%;
+    padding: 4rem;
+    .category-name {
+     padding-top: 1rem;
+      object-fit: contain;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 2rem;
+      .nike {
+        border: $primary-color solid 1px;
+      }
+    }
+    .category-name img {
+      margin-left: 0.1rem;
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      border-radius: 50%;
+      border: 1px gray solid;
+      background-color: gray;
+    }
+    .category {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .categories {
+    padding: 1rem;
+    .category-name {
+      padding-top: 1.5rem;
+      object-fit: contain;
+      display: flex;
       flex-direction: row;
       gap: 1.5rem;
-     
-      }  
-     .category-name img{
-        margin-left: 1rem;
+    }
+    .category-name img {
+      margin-left: 1rem;
       width: 20px;
       height: 20px;
       object-fit: cover;
-     }  
-     .category{
-        display: flex;
-        justify-content: space-between;
-      .more{
-        color: $primary-color;
-      }  
-     }
     }
+    .category {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+  }
 }

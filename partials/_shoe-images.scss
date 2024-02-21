@@ -8,9 +8,36 @@
         border: $primary-color solid 1px;
     }
 }
+@media(max-width:788px){
+    .shoe-images{
+        padding-top: 4rem;
+        text-align: center;
+        img{
+            width: 10rem;
+        }
+        .shoe-two{
+            border: $primary-color solid 1px;
+        }
+    }    
+}
+@media(max-width:484px){
+    .shoe-images{
+        padding-top: 4rem;
+        gap: 3rem;
+        text-align: center;
+        img{
+            width: 5rem;
+        }
+        .shoe-two{
+            border: $primary-color solid 1px;
+            width: 4rem;
+        }
+    }   
+}
 @media(max-width:360px){
     .shoe-images{
-        padding-top: 2.5rem;
+        padding-top: 4rem;
+        grid-area: 1rem;
         text-align: center;
         img{
             width: 5rem;

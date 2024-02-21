@@ -9,7 +9,8 @@
  display: flex;
   .bx-cart-add {
     font-size: 1.2rem;
-    background-color: $tartiary-color;
+    background-color: aqua;
+    // background-color: $tartiary-color;
     padding: 0.5rem 0.4rem;
     border-radius: 0.3rem;
   }
@@ -22,4 +23,85 @@
     border-radius: 0.3rem;
     border: none;
   }
+}
+@media(max-width:788px){
+  .buy-more {
+    align-items: center;
+    position: fixed;
+    bottom: -1%;
+    left: 29%;
+      padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+   display: flex;
+    .bx-cart-add {
+      font-size: 1.2rem;
+      background-color: $tartiary-color;
+      padding: 0.5rem 0.4rem;
+      border-radius: 0.3rem;
+    }
+    button {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: $secondary-color;
+      font-size: 1.2rem;
+      padding: 0.4rem 5rem;
+      border-radius: 0.3rem;
+      border: none;
+    }
+  }  
+}
+@media(max-width:484px){
+  .buy-more {
+    text-align: center;
+    position: fixed;
+    bottom: -1%;
+    left: 18%;
+      padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+   display: flex;
+    .bx-cart-add {
+      font-size: 1.2rem;
+      background-color: $tartiary-color;
+      padding: 0.5rem 0.4rem;
+      border-radius: 0.3rem;
+    }
+    button {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: $secondary-color;
+      font-size: 1.2rem;
+      padding: 0.4rem 5rem;
+      border-radius: 0.3rem;
+      border: none;
+    }
+  }  
+}
+@media(max-width:360px){
+  .buy-more {
+    text-align: center;
+    position: fixed;
+    bottom: -1%;
+    left: 10%;
+      padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+   display: flex;
+    .bx-cart-add {
+      font-size: 1.2rem;
+      background-color: $tartiary-color;
+      padding: 0.5rem 0.4rem;
+      border-radius: 0.3rem;
+    }
+    button {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: $secondary-color;
+      font-size: 1.2rem;
+      padding: 0.4rem 5rem;
+      border-radius: 0.3rem;
+      border: none;
+    }
+  }  
 }

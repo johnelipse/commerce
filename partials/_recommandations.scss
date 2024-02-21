@@ -40,6 +40,231 @@
     top: 19%;
   }
 }
+@media(max-width:788px){
+  .recommandations {
+    padding: 1rem 4rem;
+    .recommandation {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+    .recommandation-images {
+      padding-left: 5rem;
+      position: relative;
+      display: flex;
+      gap: 10rem;
+      img {
+        width: 10rem;
+      }
+      .amount {
+        display: flex;
+        gap: 1rem;
+      }
+      .left {
+        .bx-plus {
+          background-color: $primary-color;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+      .right {
+     .bx-plus {
+          background-color: gray;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+    }
+    .bx-heart {
+      position: absolute;
+      top: 19%;
+    }
+  } 
+}
+@media(max-width:630px){
+  .recommandations {
+    padding: 1rem 4rem;
+    .recommandation {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+    .recommandation-images {
+      padding-left: 2rem;
+      position: relative;
+      display: flex;
+      gap: 10rem;
+      img {
+        width: 10rem;
+      }
+      .amount {
+        display: flex;
+        gap: 1rem;
+      }
+      .left {
+        .bx-plus {
+          background-color: $primary-color;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+      .right {
+     .bx-plus {
+          background-color: gray;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+    }
+    .bx-heart {
+      position: absolute;
+      top: 19%;
+    }
+  }  
+}
+@media(max-width:578px){
+  .recommandations {
+    padding: 1rem 4rem;
+    .recommandation {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+    .recommandation-images {
+      position: relative;
+      justify-content: center;
+      display: flex;
+      gap: 10rem;
+      img {
+        width: 10rem;
+      }
+      .amount {
+        display: flex;
+        gap: 1rem;
+      }
+      .left {
+        .bx-plus {
+          background-color: $primary-color;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+      .right {
+     .bx-plus {
+          background-color: gray;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+    }
+    .bx-heart {
+      position: absolute;
+      top: 19%;
+    }
+  }   
+}
+@media(max-width:488px){
+  .recommandations {
+    padding: 1rem 4rem;
+    .recommandation {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+    .recommandation-images {
+      position: relative;
+      justify-content: center;
+      display: flex;
+      gap: 10rem;
+      img {
+        width: 10rem;
+      }
+      .amount {
+        display: flex;
+        gap: 1rem;
+      }
+      .left {
+        .bx-plus {
+          background-color: $primary-color;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+      .right {
+     .bx-plus {
+          background-color: gray;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+    }
+    .bx-heart {
+      position: absolute;
+      top: 19%;
+    }
+  }     
+}
+@media(max-width:430px){
+  .recommandations {
+    padding: 1rem 3rem;
+    .recommandation {
+      display: flex;
+      justify-content: space-between;
+      .more {
+        color: $primary-color;
+      }
+    }
+    .recommandation-images {
+      position: relative;
+      justify-content: center;
+      display: flex;
+      gap: 5rem;
+      img {
+        width: 10rem;
+      }
+      .amount {
+        display: flex;
+        gap: 1rem;
+      }
+      .left {
+        .bx-plus {
+          background-color: $primary-color;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+      .right {
+     .bx-plus {
+          background-color: gray;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          color: $secondary-color;
+        }
+      }
+    }
+    .bx-heart {
+      position: absolute;
+      top: 19%;
+    }
+  }   
+}
 @media (max-width: 360px) {
   .recommandations {
     padding: 1.5rem;

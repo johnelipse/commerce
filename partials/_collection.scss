@@ -46,6 +46,210 @@
     } 
 }
 }
+@media(max-width:788px){
+  .collection{
+    padding: 2rem;
+    .collections{
+        padding:1rem 5rem;
+        justify-content: space-between;
+        display: flex;
+        gap: 10rem;
+        background-color: $primary-color;
+      .about-image img{
+        width: 17rem;
+        height: 17rem;
+      } 
+    .about{
+       padding-top: 3.3rem;
+        h2{
+            color: $secondary-color;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        p{
+            color: $secondary-color;
+            font-size: 1.4rem;
+        }
+       .bttn{
+        padding-top: 2rem;
+        a{
+            color: $primary-color;
+            background-color: $secondary-color;
+            padding: 0.5rem 2.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+        }
+       }
+    } 
+    }
+.circles{
+    padding: 0.5rem;
+    text-align: center;
+  .bxs-circle{
+    color: $tartiary-color;
+  } 
+  .blue-circle{
+    color: $primary-color;
+    border: solid $primary-color 1px;
+    border-radius: 50%;
+    } 
+}
+} 
+}
+@media(max-width:699px){
+  .collection{
+    padding: 2rem;
+    .collections{
+        padding:1rem 2rem;
+        justify-content: space-between;
+        // align-items: center;
+        display: flex;
+        gap: 4.5rem;
+        background-color: $primary-color;
+      .about-image img{
+        width: 16rem;
+        height: 18rem;
+      } 
+    .about{
+       padding-top: 1rem;
+               h2{
+            color: $secondary-color;
+            font-size: 1.9rem;
+            font-weight: bold;
+        }
+        p{
+            color: $secondary-color;
+            font-size: 1.3rem;
+            padding-top: 2.5rem;
+        }
+       .bttn{
+        padding-top: 2.5rem;
+        a{
+            color: $primary-color;
+            background-color: $secondary-color;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+        }
+       }
+    } 
+    }
+.circles{
+    padding: 0.5rem;
+    text-align: center;
+  .bxs-circle{
+    color: $tartiary-color;
+  } 
+  .blue-circle{
+    color: $primary-color;
+    border: solid $primary-color 1px;
+    border-radius: 50%;
+    } 
+}
+}
+}
+@media(max-width:524px){
+  .collection{
+    padding: 2rem;
+        .collections{
+        padding:1rem 2rem;
+        justify-content: space-between;
+        display: flex;
+        gap: 2.5rem;
+        background-color: $primary-color;
+      .about-image img{
+        width: 12rem;
+        height: 13rem;
+      } 
+    .about{
+       padding-top: 1rem;
+               h2{
+            color: $secondary-color;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        p{
+            color: $secondary-color;
+            font-size: 1.3rem;
+            padding-top: 2rem;
+        }
+       .bttn{
+        padding-top: 1.9rem;
+        a{
+            color: $primary-color;
+            background-color: $secondary-color;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+        }
+       }
+    } 
+    }
+.circles{
+    padding: 0.5rem;
+    text-align: center;
+  .bxs-circle{
+    color: $tartiary-color;
+  } 
+  .blue-circle{
+    color: $primary-color;
+    border: solid $primary-color 1px;
+    border-radius: 50%;
+    } 
+}
+}
+}
+@media(max-width:430px){
+  .collection{
+    text-align: center;
+    padding: 1rem;
+      .collections{
+        justify-content: space-between;
+        display: flex;
+        gap: 0rem;
+        background-color: $primary-color;
+      .about-image img{
+        display: none;
+        
+      } 
+    .about{
+       padding-top: 1rem;
+               h2{
+            color: $secondary-color;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        p{
+            color: $secondary-color;
+            font-size: 1.3rem;
+            padding-top: 2rem;
+        }
+       .bttn{
+        padding-top: 1.9rem;
+        a{
+            color: $primary-color;
+            background-color: $secondary-color;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+        }
+       }
+    } 
+    }
+.circles{
+    padding: 0.5rem;
+    text-align: center;
+  .bxs-circle{
+    color: $tartiary-color;
+  } 
+  .blue-circle{
+    color: $primary-color;
+    border: solid $primary-color 1px;
+    border-radius: 50%;
+    } 
+}
+} 
+}
 @media(max-width:360px){
     .collection{
         padding: 1.5rem;
